@@ -1,0 +1,32 @@
+/* Sets background color */
+body {
+    background-color: rgb(125, 182, 204);
+}
+/* Gives header padding and assigns a color Also assigns font style and color  */
+header {
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: beige;
+    background-color:rgb(48, 95, 114);
+}
+header h1 {
+    display: inline-block;
+    font-size: 30px;
+}
+ /* Applies margin and padding for nav links in header Assigns font style, size as well as position float*/
+ header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+/* No list order for list */
+header nav ul {    
+    list-style-type: none;
+}
+/* Displays list and list contents inline with a margin */
+header nav ul li {
+    display: inline-block;
+   margin-left: 25px;
+}
