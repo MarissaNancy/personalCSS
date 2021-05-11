@@ -13,6 +13,7 @@ header h1 {
     display: inline-block;
     font-size: 30px;
 }
+
  /* Applies margin and padding for nav links in header Assigns font style, size as well as position float*/
  header nav {
     padding-top: 15px;
@@ -22,13 +23,23 @@ header h1 {
     font-size: 20px;
 }
 /* No list order for list */
-header nav ul {    
+header nav .class1 {    
     list-style-type: none;
 }
 /* Displays list and list contents inline with a margin */
-header nav ul li {
+header nav .class1 li {
     display: inline-block;
    margin-left: 25px;
+}
+
+main {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(city.png.JPG);
+    background-size: cover;
+    background-position: center;
+    
 }
 aside {
     width: auto;
@@ -37,4 +48,24 @@ aside {
     margin-left: 15px;
     float: left;
     font-size: 30px;
+    color: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+  }
+
+  .class2 {
+      list-style-type: none;
+  }
+
+  .class2 li {
+      display: inline-block;
+      font-size: 25px;
+      color: blanchedalmond;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  p {
+      font-size: 20px;
+      color: blanchedalmond;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
