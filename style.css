@@ -30,3 +30,11 @@ header nav ul li {
     display: inline-block;
    margin-left: 25px;
 }
+aside {
+    width: auto;
+    position: relative;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: left;
+    font-size: 30px;
+  }
