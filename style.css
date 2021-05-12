@@ -1,14 +1,15 @@
 /* Sets background color */
 body {
-    background-color: rgb(125, 182, 204);
+    background-color: rgb(30, 106, 112);
 }
 /* Gives header padding and assigns a color Also assigns font style and color  */
 header {
     padding: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: beige;
-    background-color:rgb(48, 95, 114);
+    background-color: rgb(18, 63, 66);
 }
+/* Sets font size and display to inline */
 header h1 {
     display: inline-block;
     font-size: 30px;
@@ -31,7 +32,7 @@ header nav .class1 li {
     display: inline-block;
    margin-left: 25px;
 }
-
+/*Gives sizing and margin to background image added */
 main {
     height: 500px;
     width: 100%;
@@ -39,33 +40,61 @@ main {
     background-image: url(city.png.JPG);
     background-size: cover;
     background-position: center;
-    
 }
+/* Styles text inside image and adjust position */
+.citytxt {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: bisque;
+    font-size: 50px;
+}
+/* Styles elemnts to be placed aside*/
 aside {
+    display: block;
     width: auto;
     position: relative;
-    padding-left: 15px;
+    padding: 5px;
     margin-left: 15px;
     float: left;
     font-size: 30px;
     color: beige;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: lighter;
+    border: 2px solid black;
   }
-
+.ex1 {
+    position: relative;
+    justify-content: center;
+}
+.ex2 {
+    display: flex;
+    position: relative;
+    display: inline-flex;
+}
+.ex3 {
+    display: flex;
+    position: relative;
+    display: inline-flex;
+}
+/* Adds no list style and changes display to inline */
   .class2 {
       list-style-type: none;
+      display: inline-block;
   }
-
+/* Gives list styling and display to inline */
   .class2 li {
       display: inline-block;
-      font-size: 25px;
+      font-size: 15px;
       color: blanchedalmond;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
-
+/* Styles and positions elements */
   p {
       font-size: 20px;
       color: blanchedalmond;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
+      position: relative;
   }
