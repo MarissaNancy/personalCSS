@@ -1,7 +1,8 @@
 /* Sets background color */
 body {
-    background-color: rgb(30, 106, 112);
+    background-color: rgb(3, 95, 100);
 }
+
 /* Gives header padding and assigns a color Also assigns font style and color  */
 header {
     padding: 10px;
@@ -9,29 +10,33 @@ header {
     color: beige;
     background-color: rgb(18, 63, 66);
 }
+
 /* Sets font size and display to inline */
 header h1 {
     display: inline-block;
     font-size: 30px;
 }
 
- /* Applies margin and padding for nav links in header Assigns font style, size as well as position float*/
- header nav {
+/* Applies margin and padding for nav links in header Assigns font style, size as well as position float*/
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
 }
+
 /* No list order for list */
 header nav .class1 {    
     list-style-type: none;
 }
+
 /* Displays list and list contents inline with a margin */
 header nav .class1 li {
     display: inline-block;
     margin-left: 25px;
 }
+
 /*Gives sizing and margin to background image added */
 main {
     height: 500px;
@@ -41,6 +46,7 @@ main {
     background-size: cover;
     background-position: center;
 }
+
 /* Styles text inside image and adjust position */
 .citytxt {
     text-align: center;
@@ -51,7 +57,8 @@ main {
     color: bisque;
     font-size: 50px;
 }
-/* Styles elemnts to be placed aside*/
+
+/* Adds a sidebar and gives a border */
 .sidebar {
     display: block;
     width: 250px;
@@ -66,30 +73,39 @@ main {
     font-weight: lighter;
     border: 2px solid beige;
     text-align: center;
-  }
+}
+
+/* Changes position of headers */
 h3 h4 h5 {
     display: flex;
     justify-content: space-between;
 }
-.aboutme {
- /* Defines width and the display to be inline adds margin left attribute as well */
+
+/* Defines width and the display to be inline adds margin left attribute as well */
+.aboutme { 
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+/* Changes the way work element is displayed */
 .work {
     width: 75%;
     display: inline-flex;
 }
+
+/* Adds flex property and adds space between */
 .contact {
     display: flex;
     justify-content: space-between;
 }
+
 /* Adds no list style and changes display to inline */
 .class2 {
     list-style-type: none;
     display: inline-block;
 }
+
 /* Gives list styling and display to inline */
 .class2 li {
   display: inline-block;
@@ -97,7 +113,8 @@ h3 h4 h5 {
   color: blanchedalmond;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-/* Styles and positions elements */
+
+/* Styles paragraph and aligns text */
 p {
     font-size: 15px;
     color: blanchedalmond;
