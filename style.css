@@ -4,7 +4,7 @@ body {
 }
 /* Gives header padding and assigns a color Also assigns font style and color  */
 header {
-    padding: 15px;
+    padding: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: beige;
     background-color: rgb(18, 63, 66);
@@ -30,7 +30,7 @@ header nav .class1 {
 /* Displays list and list contents inline with a margin */
 header nav .class1 li {
     display: inline-block;
-   margin-left: 25px;
+    margin-left: 25px;
 }
 /*Gives sizing and margin to background image added */
 main {
@@ -52,37 +52,43 @@ main {
     font-size: 50px;
 }
 /* Styles elemnts to be placed aside*/
-aside {
+.sidebar {
     display: block;
-    width: auto;
+    width: 250px;
+    height: 100vh;
     position: relative;
     padding: 5px;
-    margin-left: 15px;
+    margin-left: 25px;
     float: left;
     font-size: 30px;
     color: beige;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: lighter;
-    border: 2px solid black;
+    border: 2px solid beige;
+    text-align: center;
   }
-.ex1 {
-    position: relative;
-    justify-content: center;
-}
-.ex2 {
+h3 h4 h5 {
     display: flex;
-    position: relative;
+    justify-content: space-between;
+}
+.aboutme {
+ /* Defines width and the display to be inline adds margin left attribute as well */
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+.work {
+    width: 75%;
     display: inline-flex;
 }
-.ex3 {
+.contact {
     display: flex;
-    position: relative;
-    display: inline-flex;
+    justify-content: space-between;
 }
 /* Adds no list style and changes display to inline */
 .class2 {
     list-style-type: none;
-  display: inline-block;
+    display: inline-block;
 }
 /* Gives list styling and display to inline */
 .class2 li {
@@ -93,10 +99,11 @@ aside {
 }
 /* Styles and positions elements */
 p {
-    font-size: 20px;
+    font-size: 15px;
     color: blanchedalmond;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: relative;
+    text-align: justify;
 }
 
 /* Tablets -  */
