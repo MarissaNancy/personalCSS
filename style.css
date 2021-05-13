@@ -80,21 +80,34 @@ aside {
     display: inline-flex;
 }
 /* Adds no list style and changes display to inline */
-  .class2 {
-      list-style-type: none;
-      display: inline-block;
-  }
+.class2 {
+    list-style-type: none;
+  display: inline-block;
+}
 /* Gives list styling and display to inline */
-  .class2 li {
-      display: inline-block;
-      font-size: 15px;
-      color: blanchedalmond;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+.class2 li {
+  display: inline-block;
+  font-size: 15px;
+  color: blanchedalmond;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 /* Styles and positions elements */
-  p {
-      font-size: 20px;
-      color: blanchedalmond;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      position: relative;
-  }
+p {
+    font-size: 20px;
+    color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+}
+
+/* Tablets -  */
+
+/*  */
+@media screen and (max-width: 768px) {
+header nav {
+    flex-direction: ;
+}
+  /*  */
+@media screen and (max-width: 576px) {
+    nav {
+        flex-direction: column;
+}
