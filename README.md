@@ -11,20 +11,7 @@ If an Employer goes to my web application and wants to see my skills they can vi
 Use what I have learned so far in this course mainly with CSS, Flexbox, & media queries to build a web application that will act as my porfolio. This portfolio is meant to showcase my work and should include a way I can be contacted. 
 
 ## Acceptance Criteria
-Tentative
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+Portfolio loads and sample work loads sucessfully. Developers name and photo or avatar loads. When links to sections about me or work loads and links work well, links should take you to correct section. When clicking on images of work and they are successfully linked to work. Web page should be easy to use.
 
 ## MockUp
 The following is what the web page should look like:
