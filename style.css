@@ -48,6 +48,14 @@ main {
     background-size: cover;
     background-position: center;
 }
+.columns{
+    margin: 5rem auto;
+    width: min(90%, 75rem);
+    display: grid;
+    gap: 2em;
+    text-align: center;
+    /* grid-template-columns: repeat(2, 1fr); */
+}
 
 /* Styles text inside image and adjust position */
 .citytxt {
@@ -57,7 +65,7 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     color: bisque;
-    font-size: 50px;
+    font-size: 35px;
 }
 /* Adds a sidebar and gives a border */
 .sidebar {
