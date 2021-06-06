@@ -16,6 +16,8 @@ Portfolio loads and sample work loads sucessfully. Developers name and photo or 
 ## MockUp
 The following is what the web page should look like:
 (./Assets/02-advanced-css-homework-demo.gif)
+and here is the link to my page 
+https://github.com/MarissaNancy/personalCSS
 
 ## Credits
 These resources really helped to guide me in making my portfolio page:

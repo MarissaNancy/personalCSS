@@ -14,7 +14,7 @@ header {
 /* Sets font size and display to inline */
 header h1 {
     display: inline-block;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 /* Applies margin and padding for nav links in header Assigns font style, size as well as position float*/
@@ -41,12 +41,13 @@ header nav .class1 li {
 
 /*Gives sizing and margin to background image added */
 main {
-    height: 500px;
+    height: 400px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url(city.png.JPG);
     background-size: cover;
     background-position: center;
+    margin-top: 5px;
 }
 .columns{
     margin: 5rem auto;
@@ -71,7 +72,7 @@ main {
 .sidebar {
     display: flex;
     width: 250px;
-    height: 100vh;
+    height: 250vh;
     position: relative;
     padding: 5px;
     margin-left: 25px;
@@ -137,7 +138,7 @@ figure {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: bisque;
+    color: gray;
     font-size: 50px;
 }
 /* Aligns elemnt to center on both axis */
@@ -161,13 +162,14 @@ figure {
 .class2 {
 /* Adds no list style and changes display to inline */
     list-style-type: none;
-    display: inline-flex
+    display: inline-flex;
 }
 /* Gives list styling and display to inline */
 .info .class2 li {
   font-size: 15px;
   color: blanchedalmond;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-block;
 }
 /* Styles paragraph and aligns text */
 p  {
@@ -197,13 +199,16 @@ p  {
     }
 
 /* Resize to phoneviewport  */
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 500px) {
     nav {
+        flex-direction: column;
         width: 100%;
         padding: 0;
         margin: 0;
+        align-items: flex-start;
     }
     nav li ul {
+        width: 100%;
         flex-direction: column;
     }
     .work {
