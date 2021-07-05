@@ -1,7 +1,6 @@
 # personalCSS
 
 ## Description
-What why and how
 Create a web page from scratch that will serve as my portfolio page. In building this web application I will help to showcase skills and what I have learned so far. I will be able to direct any potential employers. My porfolio will allow me to effectievly  show what my strong areas are as well as any deployed web applications. In building this web application I will put to use what I have learned so far in this course.
 
 ## User Story
