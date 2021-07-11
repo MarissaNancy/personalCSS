@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
 </head>
@@ -35,79 +36,89 @@
             <h2>Nancy's Portfolio</h2>
         </div>
     </main>
-    <aside class="sidebar">
-        <section class="meabout">
-            <h3>About Me</h3>
-        </section>
-        <section class="workk">    
-            <h4>Work</h4>
-        </section>
-        <section class="contact">
-            <h5>Contact Me</h5>
-        </section>
-    </aside>
-    <content id="content" class="columns flex-row align-start align-stretch-md align-content-start align-content-stretch-md min-100-vh">
-        <section class="aboutme">
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            <section class="meabout">
+                <h3>About Me</h3>
+            </section>
+          </div>
+          <div class="col">
             <article id="about-me" class="about-me">
                 <p>My name is Nancy and I was born and raised in Los Angeles. I was first introduced to coding back when MySpace was popular and everyone wanted to have the best layout. After doing some research I realized I could personalize my profile by altering the code and I was drawn into learning more. I liked creating something based off what I had pictured in my head and making it a reality. That's why I like coding because if you can imagine it you can probably code it!</p>
             </article>
+          </div>
+          <div class="w-100"></div>
+          <div class="col">
+            <section class="workk">    
+                <h4>Work</h4>
             </section>
-        <section class="work">
-            <article id = "work" class="imgs">
-                <figure class="ex1">
-                    <a href="https://henryparras24.github.io/roadtrip/"><img src="roadapp1.png" alt="Webpage with picture of a van driving outside captioned roadtrip, Page also has content box with business"></a>
-                    <figcaption>Roadtrip App!</figcaption>
-                    <div>
-                        <a href="https://github.com/henryparras24/roadtrip">Click here for Roadtrip repo on Github!</a>
-                    </div>
-                </figure>
-                <figure class="ex2">
-                    <a href="https://marissanancy.github.io/Workday-Planner/"><img src="plannapp.png" alt="Picture of a webpage with Workday scheduler title and current date, The rest of the page is color coded with time blocks, green future red current and grey is past"></a>
-                    <figcaption>Workday Planner!</figcaption>
-                    <div>
-                        <a href="https://github.com/MarissaNancy/Workday-Planner">Click here for Github repo!</a>
-                    </div>
-                </figure>
-                <figure class="ex3">
-                    <a href="https://upper-beaver-88035.herokuapp.com/"><img src="ex1.png" alt="Picture of webpage with Givehub title and info"></a>
-                    <figcaption>CSS</figcaption>
-                    <div>
-                        <a href="https://github.com/agonzalvez/givehub">Click here for Github Repo!</a>
-                    </div>
-                </figure>
-                <figure class="ex4">
-                    <a href="https://www.google.com/"><img src="imgtwo.png" alt="smaller square dark purple block with caption Placeholder"></a>
-                    <figcaption>Placeholder</figcaption>
-                </figure>
-                <figure class="ex5">
-                    <a href="https://www.google.com/"><img src="imgtwo.png" alt="smaller square dark purple block with caption Placeholder"></a>
-                    <figcaption>Placeholder</figcaption>
-                </figure>
-            </article>
-        </section>
-        <section class="info">
-            <article id="contactme" class="contactme">
-                <ul class="class2">
-                    <li>
-                        <a class="number">
-                            (323) 829-2586
-                        </a>
-                    </li>
-                    <br>
-                    <li>
-                        <a class="email">
-                            nancygonzalez7@yahoo.com
-                        </a>
-                    </li>
-                    <br>
-                    <li>
-                        <a class="git" a href="https://github.com/MarissaNancy">
-                            https://github.com/MarissaNancy
-                        </a>
-                    </li>
-                </ul>
-            </article>
-        </section>
-    </content>
+          </div>
+          <div class="col">
+                <article id = "work" class="imgs">
+                    <figure class="ex1">
+                        <a href="https://henryparras24.github.io/roadtrip/"><img src="roadapp1.png" alt="Webpage with picture of a van driving outside captioned roadtrip, Page also has content box with business"></a>
+                        <figcaption>Roadtrip App!</figcaption>
+                        <div>
+                            <a href="https://github.com/henryparras24/roadtrip">Click here for Roadtrip repo on Github!</a>
+                        </div>
+                    </figure>
+                    <figure class="ex2">
+                        <a href="https://marissanancy.github.io/Workday-Planner/"><img src="plannapp.png" alt="Picture of a webpage with Workday scheduler title and current date, The rest of the page is color coded with time blocks, green future red current and grey is past"></a>
+                        <figcaption>Workday Planner!</figcaption>
+                        <div>
+                            <a href="https://github.com/MarissaNancy/Workday-Planner">Click here for Github repo!</a>
+                        </div>
+                    </figure>
+                    <figure class="ex3">
+                        <a href="https://upper-beaver-88035.herokuapp.com/"><img src="ex1.png" alt="Picture of webpage with Givehub title and info"></a>
+                        <figcaption>CSS</figcaption>
+                        <div>
+                            <a href="https://github.com/agonzalvez/givehub">Click here for Github Repo!</a>
+                        </div>
+                    </figure>
+                    <figure class="ex4">
+                        <a href="https://www.google.com/"><img src="imgtwo.png" alt="smaller square dark purple block with caption Placeholder"></a>
+                        <figcaption>Placeholder</figcaption>
+                    </figure>
+                    <figure class="ex5">
+                        <a href="https://www.google.com/"><img src="imgtwo.png" alt="smaller square dark purple block with caption Placeholder"></a>
+                        <figcaption>Placeholder</figcaption>
+                    </figure>
+                </article>
+          </div>
+          <div class="row">
+            <div class="col">
+                <section class="contact">
+                    <h5>Contact Me</h5>
+                </section>
+            </div>
+            <div class="col">
+                <article id="contactme" class="contactme">
+                    <ul class="class2">
+                        <li>
+                            <a class="number">
+                                (323) 829-2586
+                            </a>
+                        </li>
+                        <br>
+                        <li>
+                            <a class="email">
+                                nancygonzalez7@yahoo.com
+                            </a>
+                        </li>
+                        <br>
+                        <li>
+                            <a class="git" a href="https://github.com/MarissaNancy">
+                                https://github.com/MarissaNancy
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+            </div>
+            <div class="w-100"></div>
+          </div>
+        </div>
+      </div>
 </body>
 </html>
