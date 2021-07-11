@@ -1,215 +1,180 @@
 /* Sets background color */
 body {
-    background-color: rgb(3, 95, 100);
+  background-color: rgb(3, 95, 100);
 }
 
 /* Gives header padding and assigns a color Also assigns font style and color  */
 header {
-    padding: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: beige;
-    background-color: rgb(18, 63, 66);
+  padding: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: beige;
+  background-color: rgb(18, 63, 66);
 }
 
 /* Sets font size and display to inline */
 header h1 {
-    display: inline-block;
-    font-size: 40px;
+  font-size: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-/* Applies margin and padding for nav links in header Assigns font style, size as well as position float*/
-header nav {
-    display: flex;
-    padding-top: 20px;
-    margin-right: 25px;
-    float: right;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
+ul {
+  list-style-type: none;
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(18, 63, 66);
 }
 
-/* No list order for list */
-header nav .class1 {    
-    list-style-type: none;
+li {
+  float: right;
 }
 
-/* Displays list and list contents inline with a margin */
-header nav .class1 li {
-    display: flex;
-    display: inline-block;
-    margin-left: 20px;
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 /*Gives sizing and margin to background image added */
 main {
-    height: 400px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url(city.png.JPG);
-    background-size: cover;
-    background-position: center;
-    margin-top: 5px;
+  height: 400px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url(./Assets/city.png.JPG);
+  background-size: cover;
+  background-position: center;
+  margin-top: 5px;
 }
-.columns{
-    margin: 5rem auto;
-    width: min(90%, 75rem);
-    display: grid;
-    gap: 2em;
-    text-align: center;
-    /* grid-template-columns: repeat(2, 1fr); */
+.columns {
+  margin: 5rem auto;
+  width: min(90%, 75rem);
+  display: grid;
+  gap: 2em;
+  text-align: center;
+  /* grid-template-columns: repeat(2, 1fr); */
 }
 
 /* Styles text inside image and adjust position */
 .citytxt {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: bisque;
-    font-size: 35px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: bisque;
+  font-size: 35px;
 }
-/* Adds a sidebar and gives a border */
-.sidebar {
-    display: flex;
-    width: 250px;
-    height: 250vh;
-    position: relative;
-    padding: 5px;
-    margin-left: 25px;
-    float: left;
-    font-size: 30px;
-    color: beige;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: lighter;
-    border: 2px solid beige;
-    text-align: center;
-    flex-direction: column;
-    justify-content: space-around;
+h4 {
+  color: wheat;
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-/* Gives content element width sets display and margin */
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-right: 20px;
-}
+
 /* Defines width and the display to be inline adds margin left attribute as well */
-.aboutme { 
-    margin-right: 20px;
-    padding: 20px;
-    display: inline-block;
-    float: right;
-    width: 75%;
+.about-me {
+  color: white;
+  padding: 20px;
 }
 
 /* Gives attributes to ex1 */
 .ex1 {
-    width: 400px;
-    clear: left;
-    margin-bottom: 5px;
-    margin-right: 14px;
+  width: 400px;
+  clear: left;
+  margin-bottom: 5px;
+  margin-right: 14px;
 }
 /* Places figcaption on top of images and styles caption */
 figcaption {
-    background-color: wheat;
-    color: white;
-    max-width: 400px;
-    font-size: 30px;
-    display: block;
-    float: left;
-    position: absolute;
-    top: 0;
+  background-color: wheat;
+  color: white;
+  max-width: 400px;
+  font-size: 30px;
+  display: block;
+  float: left;
+  position: absolute;
+  top: 0;
 }
 /* Places position of image to float left relative */
 figure {
-    position: relative;
-    float: left;
-}  
+  position: relative;
+  float: left;
+}
 
 /* Aligns text as well as gives margin and color and font-size */
 .ex1 .txt {
-    text-align: center;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: gray;
-    font-size: 50px;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: gray;
+  font-size: 50px;
 }
 /* Aligns elemnt to center on both axis */
 #ex1 {
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 /* Gives rest of pictures spacing and center alignment */
 #ex2 #ex3 #ex4 #ex5 {
-    justify-content: space-evenly;
-    align-items: center;
+  justify-content: space-evenly;
+  align-items: center;
 }
-/* Allows elemnt to float right adds padding margin and width */
-.info {
-    display: flex;
-    margin-right: 70px;
-    padding: 20px;
-    float: right;
-    width: 75%;
-}
-.class2 {
-/* Adds no list style and changes display to inline */
-    list-style-type: none;
-    display: inline-flex;
-}
-/* Gives list styling and display to inline */
-.info .class2 li {
+.contactme .class2 {
   font-size: 15px;
   color: blanchedalmond;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  display: inline-block;
+  display: flex;
 }
-/* Styles paragraph and aligns text */
-p  {
-    font-size: 15px;
-    color: blanchedalmond;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: relative;
-    text-align: justify;
+
+.class2 {
+  justify-content: space-evenly;
 }
+
 /* Resize to tablet viewport */
 @media screen and (max-width: 768px) {
-    nav {
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    }
-    nav li ul {
-        flex-direction: column;
-    }
-    .work {
-        width: 100%;
-        flex-direction: column;
-    }
-    .info {
-        width: 100%;
-        flex-direction: column;
-    }
+  nav {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  nav li ul {
+    flex-direction: column;
+  }
+  .work {
+    width: 100%;
+    flex-direction: column;
+  }
+  .info {
+    width: 100%;
+    flex-direction: column;
+  }
+}
 
 /* Resize to phoneviewport  */
 @media screen and (min-width: 500px) {
-    nav {
-        flex-direction: column;
-        width: 100%;
-        padding: 0;
-        margin: 0;
-        align-items: flex-start;
-    }
-    nav li ul {
-        width: 100%;
-        flex-direction: column;
-    }
-    .work {
-        width: 100%;
-        flex-direction: column;
-    }
-    .info {
-        width: 100%;
-        flex-direction: column;
-    }
+  nav {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    align-items: flex-start;
+  }
+  nav li ul {
+    width: 100%;
+    flex-direction: column;
+  }
+  .work {
+    width: 100%;
+    flex-direction: column;
+  }
+  .info {
+    width: 100%;
+    flex-direction: column;
+  }
+}

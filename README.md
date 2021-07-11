@@ -14,7 +14,7 @@ Portfolio loads and sample work loads sucessfully. Developers name and photo or 
 
 ## MockUp
 The following is what the web page should look like:
-(./Assets/02-advanced-css-homework-demo.gif)
+(![Here is what the homepage looks like ](./index.png))
 and here is the link to my page 
 https://github.com/MarissaNancy/personalCSS
 
