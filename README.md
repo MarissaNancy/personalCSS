@@ -14,7 +14,7 @@ Portfolio loads and sample work loads sucessfully. Developers name and photo or 
 
 ## MockUp
 The following is what the web page should look like:
-![Here is what the homepage looks like ](./Assets/hiking1)
+(![Here is what the homepage looks like ](/Assets/hiking1))
 and here is the link to my page 
 https://github.com/MarissaNancy/personalCSS
 
