@@ -22,4 +22,4 @@ If an Employer goes to my web application and wants to see my skills they can vi
 > **To view my application**: visit deployed [Link](https://marissanancy.github.io/personalCSS/)
 
 The following is what the web page should look like:
-![Here is what the homepage looks like ](./Assets/PortPic.png
+![Here is what the homepage looks like ](./Assets/PortPic.png)
